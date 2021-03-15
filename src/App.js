@@ -1,3 +1,6 @@
+/* 
+  This file Contains the main App component
+*/
 import React from 'react';
 import Routes from './Routes';
 import './App.css';

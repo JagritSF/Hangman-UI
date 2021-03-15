@@ -1,3 +1,6 @@
+/* 
+  This file Contains the Routes for the Application
+*/
 import React from 'react';
 import { HashRouter, Route, Switch } from 'react-router-dom'
 import Home from './components/Home'
