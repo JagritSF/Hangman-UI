@@ -5,10 +5,10 @@ import EnvService from './EnvService';
 
 export class  RandomWordService {
     
-    static getRandomWord = () => {
-        return EnvService.apiClient({
-            method: 'get',
-            url: 'https://random-word-api.herokuapp.com//word?number=50',
-        });
-    }
+  static getRandomWord = () => {
+    return EnvService.apiClient({
+      method: 'get',
+      url: 'https://random-word-api.herokuapp.com//word?number=50',
+    });
+  }
 }

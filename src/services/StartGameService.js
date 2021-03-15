@@ -5,11 +5,11 @@ import EnvService from './EnvService';
 
 export class  StartGameService {
     
-    static startGame = (data) => {
-        return EnvService.apiClient({
-            method: 'post',
-            url: EnvService.host+'api/startGame/',
-            data: data
-        });
-    }
+  static startGame = (data) => {
+    return EnvService.apiClient({
+      method: 'post',
+      url: EnvService.host+'api/startGame/',
+      data: data
+    });
+  }
 }

@@ -5,19 +5,19 @@ import EnvService from './EnvService';
 
 export class  SaveLetterService {
     
-    static saveWrongLetters = (data) => {
-        return EnvService.apiClient({
-            method: 'post',
-            url: EnvService.host+'api/savewrongletters/',
-            data: data
-        });
-    }
+  static saveWrongLetters = (data) => {
+    return EnvService.apiClient({
+      method: 'post',
+      url: EnvService.host+'api/savewrongletters/',
+      data: data
+    });
+  }
 
-    static saveCorrectLetters = (data) => {
-        return EnvService.apiClient({
-            method: 'post',
-            url: EnvService.host+'api/savecorrectletters/',
-            data: data
-        });
-    }
-}
+  static saveCorrectLetters = (data) => {
+    return EnvService.apiClient({
+      method: 'post',
+      url: EnvService.host+'api/savecorrectletters/',
+      data: data
+    });
+  }
+  }

@@ -5,11 +5,11 @@ import EnvService from './EnvService';
 
 export class  SaveLastWordService {
     
-    static saveLastWord = (data) => {
-        return EnvService.apiClient({
-            method: 'post',
-            url: EnvService.host+'api/savelastword/',
-            data: data
-        });
-    }
+  static saveLastWord = (data) => {
+    return EnvService.apiClient({
+      method: 'post',
+      url: EnvService.host+'api/savelastword/',
+      data: data
+    });
+  }
 }
