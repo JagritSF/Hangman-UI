@@ -95,7 +95,7 @@ const Game = () => {
             })
           } else {
             /*
-              If the Letter is pressed again show error
+              If the Letter is pressed again, notify the user
             */
             show(setShowNotification);
           }
@@ -119,7 +119,7 @@ const Game = () => {
             })
           } else {
             /*
-              If the Letter is pressed again show error
+              If the Letter is pressed again, notify the user
             */
             show(setShowNotification);
           }
