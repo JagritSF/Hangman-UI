@@ -8,7 +8,7 @@ export class  SaveLastWordService {
   static saveLastWord = (data) => {
     return EnvService.apiClient({
       method: 'post',
-      url: EnvService.host+'api/savelastword/',
+      url: EnvService.host+'api/save-last-word/',
       data: data
     });
   }

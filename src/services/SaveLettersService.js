@@ -8,7 +8,7 @@ export class  SaveLetterService {
   static saveWrongLetters = (data) => {
     return EnvService.apiClient({
       method: 'post',
-      url: EnvService.host+'api/savewrongletters/',
+      url: EnvService.host+'api/save-wrong-letters/',
       data: data
     });
   }
@@ -16,7 +16,7 @@ export class  SaveLetterService {
   static saveCorrectLetters = (data) => {
     return EnvService.apiClient({
       method: 'post',
-      url: EnvService.host+'api/savecorrectletters/',
+      url: EnvService.host+'api/save-correct-letters/',
       data: data
     });
   }

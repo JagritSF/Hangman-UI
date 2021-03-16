@@ -8,7 +8,7 @@ export class  StartGameService {
   static startGame = (data) => {
     return EnvService.apiClient({
       method: 'post',
-      url: EnvService.host+'api/startGame/',
+      url: EnvService.host+'api/start-game/',
       data: data
     });
   }
