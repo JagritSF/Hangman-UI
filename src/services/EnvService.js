@@ -4,6 +4,6 @@
 import axios from 'axios';
 
 export default class EnvService{
-  static host = 'https://31dae828f094.ngrok.io/';
+  static host = 'https://f8decbc07908.ngrok.io/';
   static apiClient = axios;
 }
