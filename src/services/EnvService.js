@@ -4,6 +4,6 @@
 import axios from 'axios';
 
 export default class EnvService{
-  static host = 'https://hangman-laravel.herokuapp.com/';
+  static host = 'http://127.0.0.1:8000/';
   static apiClient = axios;
 }
